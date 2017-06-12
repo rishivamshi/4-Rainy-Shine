@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WeatherVC.swift
 //  RainyShine
 //
 //  Created by Rishi on 13/06/17.
@@ -8,8 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WeatherVC: UIViewController {
 
+    @IBOutlet weak var datelabel: UILabel!
+    @IBOutlet weak var currentTempLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var currentWeatherImage: UIImageView!
+    @IBOutlet weak var CurrentWeatherTypeLabel: UILabel!
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
