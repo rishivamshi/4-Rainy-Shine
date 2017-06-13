@@ -10,13 +10,75 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RainyShine/WeatherVC.swift"
-            timestampString = "519001560.56626"
+            timestampString = "519075309.487527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "WeatherVC"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RainyShine.WeatherVC.currentWeather.getter : Swift.ImplicitlyUnwrappedOptional&lt;RainyShine.CurrentWeather&gt;"
+                  moduleName = "RainyShine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rishi/Desktop/Apps/RainyShine/RainyShine/WeatherVC.swift"
+                  timestampString = "519070254.004641"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RainyShine.WeatherVC.currentWeather.setter : Swift.ImplicitlyUnwrappedOptional&lt;RainyShine.CurrentWeather&gt;"
+                  moduleName = "RainyShine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rishi/Desktop/Apps/RainyShine/RainyShine/WeatherVC.swift"
+                  timestampString = "519070254.00955"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RainyShine.WeatherVC.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; RainyShine.WeatherVC"
+                  moduleName = "RainyShine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rishi/Desktop/Apps/RainyShine/RainyShine/WeatherVC.swift"
+                  timestampString = "519070254.011272"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "469">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RainyShine.WeatherVC.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;RainyShine.WeatherVC&gt;"
+                  moduleName = "RainyShine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rishi/Desktop/Apps/RainyShine/RainyShine/WeatherVC.swift"
+                  timestampString = "519070254.012874"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "356">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,27 +88,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RainyShine/WeatherVC.swift"
-            timestampString = "519067371.732219"
+            timestampString = "519075309.487527"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RainyShine/CurrentWeather.swift"
-            timestampString = "518999556.330045"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

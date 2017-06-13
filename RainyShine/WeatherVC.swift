@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -18,19 +19,9 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
     
-    var currentWeather = CurrentWeather()
+    var currentWeather: CurrentWeather!
  
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        tableView.delegate = self
-        tableView.dataSource = self
-        currentWeather.downloadWeatherDetails {
-            // Setup UI to Load downloaded data
-        }
-        print(CURRENT_WEATHER_URL)
-        
-    }
+   
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -48,8 +39,30 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     
+    func updateMainUI() {
+        datelabel.text = currentWeather.date
+        currentTempLabel.text = "\(currentWeather.currentTemp)"
+        CurrentWeatherTypeLabel.text = currentWeather.weatherType
+        locationLabel.text = currentWeather.cityName
+        currentWeatherImage.image = UIImage(named: currentWeather.weatherType)
+    }
     
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        tableView.delegate = self
+        tableView.dataSource = self
+        currentWeather = CurrentWeather()
+        currentWeather.downloadWeatherDetails {
+            
+            
+            
+            self.updateMainUI()
+        }
+        
+        
+    }
     
     
     
