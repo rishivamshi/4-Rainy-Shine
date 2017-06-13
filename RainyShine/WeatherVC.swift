@@ -28,6 +28,7 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         currentWeather.downloadWeatherDetails {
             // Setup UI to Load downloaded data
         }
+        print(CURRENT_WEATHER_URL)
         
     }
     
