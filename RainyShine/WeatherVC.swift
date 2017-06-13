@@ -20,7 +20,68 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
     var currentWeather: CurrentWeather!
- 
+    var forecast: Forecast!
+    var forecasts = [Forecast]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        tableView.delegate = self
+        tableView.dataSource = self
+        currentWeather = CurrentWeather()
+      
+        currentWeather.downloadWeatherDetails {
+            self.downloadForecastDate {
+                self.updateMainUI()
+            }
+            
+            
+            
+            
+        }
+        
+        
+    }
+    
+    func downloadForecastDate (completed: @escaping DownloadComplete) {
+        // Downloading Forecast Weather DATA for TableView
+        Alamofire.request(FORECAST_URL).responseJSON { response in
+        
+            let result = response.result
+            if let dict = result.value as? Dictionary<String , AnyObject> {
+                
+                if let list = dict["list"] as? [Dictionary<String, AnyObject>] {
+                    
+                    for obj in list {
+                        let forecast = Forecast(weatherDict: obj)
+                        self.forecasts.append(forecast)
+                        print(obj)
+                    }
+                    
+                    
+                    
+                    
+                }
+                
+                
+                
+                
+                
+            }
+            completed()
+        
+        
+        
+        
+        }
+        
+        
+        
+        
+        
+    }
+    
+    
    
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -48,21 +109,7 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        tableView.delegate = self
-        tableView.dataSource = self
-        currentWeather = CurrentWeather()
-        currentWeather.downloadWeatherDetails {
-            
-            
-            
-            self.updateMainUI()
-        }
-        
-        
-    }
+ 
     
     
     

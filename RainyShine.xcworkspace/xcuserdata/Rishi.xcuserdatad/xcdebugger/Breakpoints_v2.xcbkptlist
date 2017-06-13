@@ -88,12 +88,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RainyShine/WeatherVC.swift"
-            timestampString = "519075309.487527"
+            timestampString = "519078728.983361"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RainyShine/Forecast.swift"
+            timestampString = "519078359.590362"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "init(weatherDict:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

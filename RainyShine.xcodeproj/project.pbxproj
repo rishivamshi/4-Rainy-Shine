@@ -14,6 +14,7 @@
 		5B04CDAA1EEF2D08000D4B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04CDA81EEF2D08000D4B04 /* Main.storyboard */; };
 		5B04CDAC1EEF2D08000D4B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B04CDAB1EEF2D08000D4B04 /* Assets.xcassets */; };
 		5B04CDAF1EEF2D08000D4B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04CDAD1EEF2D08000D4B04 /* LaunchScreen.storyboard */; };
+		5B179DFA1EF078930089B972 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B179DF91EF078930089B972 /* Forecast.swift */; };
 		AEC3B14B6CA20436E576CFF0 /* Pods_RainyShine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB90DE2AD75710DEE33674AB /* Pods_RainyShine.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		5B04CDAB1EEF2D08000D4B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B04CDAE1EEF2D08000D4B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B04CDB01EEF2D08000D4B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B179DF91EF078930089B972 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		AB90DE2AD75710DEE33674AB /* Pods_RainyShine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainyShine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				5B04CDB01EEF2D08000D4B04 /* Info.plist */,
 				5B035CF61EEF4B66006E50BC /* Constants.swift */,
 				5B035CF81EEF4D60006E50BC /* CurrentWeather.swift */,
+				5B179DF91EF078930089B972 /* Forecast.swift */,
 			);
 			path = RainyShine;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				5B04CDA51EEF2D08000D4B04 /* AppDelegate.swift in Sources */,
 				5B035CF91EEF4D60006E50BC /* CurrentWeather.swift in Sources */,
 				5B035CF71EEF4B66006E50BC /* Constants.swift in Sources */,
+				5B179DFA1EF078930089B972 /* Forecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
