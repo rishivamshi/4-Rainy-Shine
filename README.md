@@ -10,7 +10,7 @@
 
 3. Weather details are from openweathermap.org 
 
-# Queries - rishivamshi0079@gmail.com
+# Queries - mail at rishivamshi0079@gmail.com
 
 
 
